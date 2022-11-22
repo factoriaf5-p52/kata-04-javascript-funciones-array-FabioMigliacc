@@ -54,9 +54,13 @@ Cuando se programa con tests es muy importante leer y entender los errores que d
 
 Define una función `maxOfTwoNumbers` que tome dos números como argumentos y devuelva el mayor.
 
+
 ### 2. Encuentra la palabra más larga
 
 Escribe una función `findLongestWord` que tome un array de palabras y devuelva la más larga. Si hay 2 con la misma longitud, debería devolver la primera.
+
+
+
 
 
 **Puedes usar el siguiente array para probar tu función**
@@ -85,6 +89,10 @@ Crea una función `sumArray` que tome un array de números como parámetro y cal
 ```javascript
 let numbers = [6, 12, 1, 18, 13, 16, 2, 1, 8, 10];
 ```
+export function sumArray(total, num)
+
+
+
 Bonus track.
 Semanticamente [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce) es el mejor método para hacer esta operación. Podrás rehacer el código utilizando el método reduce ?
 
